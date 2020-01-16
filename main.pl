@@ -66,6 +66,7 @@ main :-
 	write_ln('Tendo isso em mente, o objetivo do seguinte protótipo baseado no DASS-21 é calcular a escala de estresse, ansiedade e depressão, avaliando os resultados e mostrando a severidade dos sintomas dos disturbios mentais associados as doenças.').
 	write_ln('O DASS-21 usa um sistema de cálculo baseado em 21 perguntas, sendo 7 para cada doença, onde a pontuação máxima é 21 para cada doença.').
 	write_ln('Os níveis de doença são : Não há disturbio, Nivel médio de disturbio e Alto nível de Disturbio').
+	write_ln('É importante notar que esse sistema serve de apoio para melhor conhecer sua saúde mental, e não deve ser tomado como resultado final. Para mais informações busque ajuda médica').
 	write_ln('É importante notar que a resposta do usuario deve ser em um inteiro entre 0 a 3, e após cada resposta deve ser colocado o ponto final.').
 	write_ln('As respostas são :').
 	write_ln('0 - Nunca').

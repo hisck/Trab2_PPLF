@@ -262,44 +262,57 @@ grau(doenca(depressao),X, Y) :-
 	X >= 4,
 	X < 11,
 	Y is 2,
-	write_ln('Médio grau/Nível de transtorno').
+	write_ln('Médio grau/Nível de transtorno'),
+	write_ln('Algumas dicas para ajudar no seu tratamento para depressão'),
+	write_ln('Aprenda o máximo que puder sobre sua depressão. É importante determinar se os sintomas da depressão se devem a uma condição médica subjacente. Nesse caso, essa condição precisará ser tratada primeiro. A gravidade da sua depressão também é um fator. Quanto mais grave a depressão, mais intensivo o tratamento que você provavelmente precisará.'),
+	write_ln('Leva tempo para encontrar o tratamento certo. Pode levar algumas tentativas e erros para encontrar o tratamento e o suporte que funcionam melhor para você. Por exemplo, se você decidir seguir a terapia, pode levar algumas tentativas para encontrar um terapeuta com quem você realmente clica. Ou você pode tentar um antidepressivo, apenas para descobrir que não precisa dele se fizer uma caminhada diária de meia hora. Esteja aberto a mudanças e um pouco de experimentação.'),
+	write_ln('Não confie nos medicamentos sozinho. Embora a medicação possa aliviar os sintomas da depressão, ela geralmente não é adequada para uso a longo prazo. Outros tratamentos, incluindo exercícios e terapia, podem ser tão eficazes quanto medicamentos, geralmente ainda mais, mas não trazem efeitos colaterais indesejados. Se você decidir experimentar a medicação, lembre-se de que a medicação funciona melhor quando você também altera o estilo de vida saudável.'),
+	write_ln('Outras táticas que possam ajudar'),
+	write_ln('Faça exercícios regulares, tenha forte suporte social, coma bem e durma bem. Cuidar bem do corpo ajuda no aumento de endorfina, melhora o bem estar e diminui sua irritabilidade e estresse.').
 
 grau(doenca(depressao),X, Y) :-
 	X >= 11,
 	X < 22,
 	Y is 3,
-	write_ln('Alto grau/Nível  de transtorno').
+	write_ln('Alto grau/Nível  de transtorno'),
+	write_ln('Algumas dicas para ajudar no seu tratamento para depressão'),
+	write_ln('Aprenda o máximo que puder sobre sua depressão. É importante determinar se os sintomas da depressão se devem a uma condição médica subjacente. Nesse caso, essa condição precisará ser tratada primeiro. A gravidade da sua depressão também é um fator. Quanto mais grave a depressão, mais intensivo o tratamento que você provavelmente precisará.'),
+	write_ln('Leva tempo para encontrar o tratamento certo. Pode levar algumas tentativas e erros para encontrar o tratamento e o suporte que funcionam melhor para você. Por exemplo, se você decidir seguir a terapia, pode levar algumas tentativas para encontrar um terapeuta com quem você realmente clica. Ou você pode tentar um antidepressivo, apenas para descobrir que não precisa dele se fizer uma caminhada diária de meia hora. Esteja aberto a mudanças e um pouco de experimentação.'),
+	write_ln('Não confie nos medicamentos sozinho. Embora a medicação possa aliviar os sintomas da depressão, ela geralmente não é adequada para uso a longo prazo. Outros tratamentos, incluindo exercícios e terapia, podem ser tão eficazes quanto medicamentos, geralmente ainda mais, mas não trazem efeitos colaterais indesejados. Se você decidir experimentar a medicação, lembre-se de que a medicação funciona melhor quando você também altera o estilo de vida saudável.'),
+	write_ln('Outras táticas que possam ajudar'),
+	write_ln('Faça exercícios regulares, tenha forte suporte social, coma bem e durma bem. Cuidar bem do corpo ajuda no aumento de endorfina, melhora o bem estar e diminui sua irritabilidade e estresse.').
+
 
 grau(doenca(ansiedade),X, Y) :-
 	X < 4,
 	Y is 1,
-	write_ln('Não há transtorno').
+	write_ln('Não há transtorno'),
 
 grau(doenca(ansiedade),X, Y) :-
 	X >= 4,
 	X < 8,
 	Y is 2,
-	write_ln('Médio grau/Nível  de transtorno').
+	write_ln('Médio grau/Nível  de transtorno'),
 
 grau(doenca(ansiedade),X, Y) :-
 	X >= 8,
 	X < 22,
 	Y is 3,
-	write_ln('Alto grau/Nível  de transtorno').
+	write_ln('Alto grau/Nível  de transtorno'),
 
 grau(doenca(stress),X, Y) :-
 	X < 8,
 	Y is 1,
-	write_ln('Não há transtorno').
+	write_ln('Não há transtorno'),
 
 grau(doenca(stress),X, Y) :-
 	X >= 8,
 	X < 13,
 	Y is 2,
-	write_ln('Médio grau/Nível  de transtorno').
+	write_ln('Médio grau/Nível  de transtorno'),
 
 grau(doenca(stress),X, Y) :-
 	X >= 13,
 	X < 22,
 	Y is 3,
-	write_ln('Alto grau/Nível  de transtorno').
+	write_ln('Alto grau/Nível  de transtorno'),
