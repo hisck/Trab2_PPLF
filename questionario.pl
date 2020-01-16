@@ -258,13 +258,13 @@ test(grau27, [fail]) :- grau(doenca(stress), 22, 3).
 grau(doenca(depressao),X, Y) :-
 	X < 4,
 	Y is 1,
-	write_ln('Não há transtorno').
+	write_ln('').
 
 grau(doenca(depressao),X, Y) :-
 	X >= 4,
 	X < 11,
 	Y is 2,
-	write_ln('Médio grau/Nível de transtorno'),
+	write_ln(''),
 	write_ln('Algumas dicas para ajudar no seu tratamento para depressão'),
 	write_ln('Aprenda o máximo que puder sobre sua depressão. É importante determinar se os sintomas da depressão se devem a uma condição médica subjacente. Nesse caso, essa condição precisará ser tratada primeiro. A gravidade da sua depressão também é um fator. Quanto mais grave a depressão, mais intensivo o tratamento que você provavelmente precisará.'),
 	write_ln('Leva tempo para encontrar o tratamento certo. Pode levar algumas tentativas e erros para encontrar o tratamento e o suporte que funcionam melhor para você. Por exemplo, se você decidir seguir a terapia, pode levar algumas tentativas para encontrar um terapeuta com quem você realmente clica. Ou você pode tentar um antidepressivo, apenas para descobrir que não precisa dele se fizer uma caminhada diária de meia hora. Esteja aberto a mudanças e um pouco de experimentação.'),
@@ -276,7 +276,7 @@ grau(doenca(depressao),X, Y) :-
 	X >= 11,
 	X < 22,
 	Y is 3,
-	write_ln('Alto grau/Nível  de transtorno'),
+	write_ln(''),
 	write_ln('Algumas dicas para ajudar no seu tratamento para depressão'),
 	write_ln('Aprenda o máximo que puder sobre sua depressão. É importante determinar se os sintomas da depressão se devem a uma condição médica subjacente. Nesse caso, essa condição precisará ser tratada primeiro. A gravidade da sua depressão também é um fator. Quanto mais grave a depressão, mais intensivo o tratamento que você provavelmente precisará.'),
 	write_ln('Leva tempo para encontrar o tratamento certo. Pode levar algumas tentativas e erros para encontrar o tratamento e o suporte que funcionam melhor para você. Por exemplo, se você decidir seguir a terapia, pode levar algumas tentativas para encontrar um terapeuta com quem você realmente clica. Ou você pode tentar um antidepressivo, apenas para descobrir que não precisa dele se fizer uma caminhada diária de meia hora. Esteja aberto a mudanças e um pouco de experimentação.'),
@@ -288,13 +288,13 @@ grau(doenca(depressao),X, Y) :-
 grau(doenca(ansiedade),X, Y) :-
 	X < 4,
 	Y is 1,
-	write_ln('Não há transtorno').
+	write_ln('').
 
 grau(doenca(ansiedade),X, Y) :-
 	X >= 4,
 	X < 8,
 	Y is 2,
-	write_ln('Médio grau/Nível  de transtorno'),
+	write_ln(''),
 	write_ln('Algumas dicas para ajudar no seu tratamento para a ansiedade'),
 	write_ln('Pratique Exercícios. O exercício é uma ótima maneira de consumir energia ansiosa e a pesquisa tende a apoiar esse uso.Por exemplo, uma revisão de 2015 de 12 ensaios clínicos randomizados descobriu que o exercício pode ser um tratamento para a ansiedade. No entanto, a revisão alertou que apenas pesquisas de maior qualidade poderiam determinar sua eficácia.O exercício também pode ajudar com a ansiedade causada por circunstâncias estressantes. Os resultados de um estudo de 2016, por exemplo, sugerem que o exercício pode beneficiar pessoas com ansiedade relacionada a parar de fumar.'),
 	write_ln('Pratique a Meditação. A meditação pode ajudar a diminuir a velocidade dos pensamentos, facilitando o gerenciamento do estresse e da ansiedade. Uma grande variedade de estilos de meditação, incluindo atenção plena e meditação durante o yoga, pode ajudar.'),
@@ -307,7 +307,7 @@ grau(doenca(ansiedade),X, Y) :-
 	X >= 8,
 	X < 22,
 	Y is 3,
-	write_ln('Alto grau/Nível  de transtorno'),
+	write_ln(''),
 	write_ln('Algumas dicas para ajudar no seu tratamento para a ansiedade'),
 	write_ln('Pratique Exercícios. O exercício é uma ótima maneira de consumir energia ansiosa e a pesquisa tende a apoiar esse uso.Por exemplo, uma revisão de 2015 de 12 ensaios clínicos randomizados descobriu que o exercício pode ser um tratamento para a ansiedade. No entanto, a revisão alertou que apenas pesquisas de maior qualidade poderiam determinar sua eficácia. O exercício também pode ajudar com a ansiedade causada por circunstâncias estressantes. Os resultados de um estudo de 2016, por exemplo, sugerem que o exercício pode beneficiar pessoas com ansiedade relacionada a parar de fumar.'),
 	write_ln('Pratique a Meditação. A meditação pode ajudar a diminuir a velocidade dos pensamentos, facilitando o gerenciamento do estresse e da ansiedade. Uma grande variedade de estilos de meditação, incluindo atenção plena e meditação durante o yoga, pode ajudar.'),
@@ -319,13 +319,13 @@ grau(doenca(ansiedade),X, Y) :-
 grau(doenca(stress),X, Y) :-
 	X < 8,
 	Y is 1,
-	write_ln('Não há transtorno').
+	write_ln('').
 
 grau(doenca(stress),X, Y) :-
 	X >= 8,
 	X < 13,
 	Y is 2,
-	write_ln('Médio grau/Nível  de transtorno'),
+	write_ln(''),
 	write_ln('Algumas dicas para ajudar no seu tratamento para o estresse.'),
 	write_ln('Busque identificar as fontes que estão gerando o seu estresse.'),
 	write_ln('Aprenda a dizer "não". Conheça seus limites e cumpra-os. Seja na sua vida pessoal ou profissional, assumir mais do que você pode lidar é uma receita infalível para o estresse. Faça uma distinção entre os "deveres" e os "mostos" e, quando possível, diga "não" para assumir demais.'),
@@ -340,7 +340,7 @@ grau(doenca(stress),X, Y) :-
 	X >= 13,
 	X < 22,
 	Y is 3,
-	write_ln('Alto grau/Nível  de transtorno'),
+	write_ln(''),
 	write_ln('Algumas dicas para ajudar no seu tratamento para o estresse.'),
 	write_ln('Busque identificar as fontes que estão gerando o seu estresse.'),
 	write_ln('Aprenda a dizer "não". Conheça seus limites e cumpra-os. Seja na sua vida pessoal ou profissional, assumir mais do que você pode lidar é uma receita infalível para o estresse. Faça uma distinção entre os "deveres" e os "mostos" e, quando possível, diga "não" para assumir demais.'),
@@ -350,3 +350,46 @@ grau(doenca(stress),X, Y) :-
 	write_ln('Crie um cronograma equilibrado. Todo o trabalho e nenhuma diversão é uma receita para o esgotamento. Tente encontrar um equilíbrio entre vida profissional e familiar, atividades sociais e atividades solitárias, responsabilidades diárias e tempo de inatividade.'),
 	write_ln('Não tente controlar o incontrolável. Muitas coisas na vida estão além do nosso controle, particularmente o comportamento de outras pessoas. Em vez de se estressar com eles, concentre-se nas coisas que você pode controlar, como a maneira como escolhe reagir aos problemas.'),
 	write_ln('Passe tempo com as pessoas. Não há nada mais calmante do que passar um tempo de qualidade com outro ser humano que faz você se sentir seguro e compreendido. De fato, a interação face a face desencadeia uma cascata de hormônios que neutraliza a resposta defensiva de "lutar ou fugir" do corpo. É um alívio natural do estresse da natureza (como um bônus adicional, também ajuda a evitar a depressão e a ansiedade). Portanto, faça questão de se conectar regularmente - e pessoalmente - com familiares e amigos.').
+
+	grau2(doenca(depressao),X) :-
+	X < 4,
+	write_ln('Não há transtorno').
+
+grau2(doenca(depressao),X) :-
+	X >= 4,
+	X < 11,
+	write_ln('Médio grau/Nível de transtorno').
+
+grau2(doenca(depressao),X) :-
+	X >= 11,
+	X < 22,
+	write_ln('Alto grau/Nível  de transtorno').
+	
+
+grau2(doenca(ansiedade),X) :-
+	X < 4,
+	write_ln('Não há transtorno').
+
+grau2(doenca(ansiedade),X) :-
+	X >= 4,
+	X < 8,
+	write_ln('Médio grau/Nível  de transtorno').
+	
+grau2(doenca(ansiedade),X) :-
+	X >= 8,
+	X < 22,
+	write_ln('Alto grau/Nível  de transtorno').
+
+grau2(doenca(stress),X) :-
+	X < 8,
+	write_ln('Não há transtorno').
+
+grau2(doenca(stress),X) :-
+	X >= 8,
+	X < 13,
+	write_ln('Médio grau/Nível  de transtorno').
+	
+grau2(doenca(stress),X) :-
+	X >= 13,
+	X < 22,
+	write_ln('Alto grau/Nível de transtorno').
